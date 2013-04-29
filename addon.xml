@@ -1,0 +1,18 @@
+<addon id="plugin.media.mored" name="Mored" provider-name="jaimefrites" version="0.1.0">
+  <requires>
+    <import addon="xbmc.python" version="2.0" />
+    <import addon="plugin.video.youtube" version="3.4.4" />
+    <import addon="script.common.plugin.cache" version="1.5.1" />
+  </requires>
+  <extension library="dispatcher.py" point="xbmc.python.pluginsource">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>en</language>
+    <platform>all</platform>
+    <summary lang="en">Look at media on Reddit</summary>
+    <summary lang="ru">Смотри фотки и видео с Редита</summary>
+    <description lang="en">Reddit is a social news and entertainment website where registered users submit content in the form of either a link or a text ("self") post. Other users then vote the submission "up" or "down", which is used to rank the post and determine its position on the site's pages and front page.</description>
+    <description lang="ru">Редит -- это и социальная сеть и сайт для развлечений. Одни пользователи Редита постят ссылки или сообщения. А другие пользователи голосуют "за" или "против" постов. Самые популярные посты оказываются на главной странице сайта.</description>
+  </extension>
+</addon>
